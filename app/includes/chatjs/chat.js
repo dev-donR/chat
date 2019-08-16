@@ -100,7 +100,7 @@ function getAbsolutePath() {
     var pathName = loc.pathname.substring(0, loc.pathname.indexOf('/', 8) + 1);//to get path of current url
     // return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
     // console.log(loc, pathName);
-    return loc.origin + '/dev_don_zechat/';
+    return loc.origin + '/atsystem/chat/';
 }
 
 function chatWith(chatuser,chatheaderimg,status) {

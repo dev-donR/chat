@@ -12,7 +12,7 @@ $config['google_app_id']        = '';
 $config['google_app_secret']    = '';
 $config['google_call_backurl']  = '';
 
-$config['site_url'] = "http://".$_SERVER['HTTP_HOST']."/dev_don_zechat/";
+$config['site_url'] = "http://".$_SERVER['HTTP_HOST']."/atsystem/chat/";
 
 // session_start();
 
